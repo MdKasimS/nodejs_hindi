@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_hindi",
+  "version": "1.0.0",
+  "description": "learning nodejs in hindi by code setp by step",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "hindi",
+    "csbs",
+    "basic",
+    "advanced"
+  ],
+  "author": "mdkasim_sache",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
