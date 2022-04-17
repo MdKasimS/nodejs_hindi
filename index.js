@@ -1,12 +1,12 @@
 const express = require('express');
 const path = require('path');
 
-const app = express();
+const app = new express();
 const publicPath = path.join(__dirname, 'public');
 
 console.log("Server staretd...");
 
-//  app.use(express.static(publicPath));
+app.use(express.static(publicPath));
 
 app.get('', (_, res)=>{
     console.log("home page requested...");
